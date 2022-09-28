@@ -11,13 +11,15 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Smart Mirror IOT ",
-    description: "Smart Mirror to teach kids about technology",
-    image: "/images/smartmirror.png",
-    tags: ["Java", "Android", "Firebase", "Python"],
-    source: "https://google.com",
+    title: "Full Stack Reddit Clone",
+    description:
+      "The purpose of this project is to learn Full stack development wit new cutting edge technologies such as Next.js, GraphQL, SSR, CSR, redis, typeScript, URQL/Apollo, TypeGraphQL, and etc. This Reddit clone will contain basic features of Reddit related to profile, posts, commenting on a post, voting on post, etc  ",
+    image: "/images/login.png",
+    tags: ["GraphQL", "TypeScript", "Node.js", "others"],
+    source: "https://github.com/fullhaider1997/reddit-clone",
     id: 1,
   },
+
   {
     title: "Gaze and blink controlled virtual keyboard",
     description:
@@ -26,6 +28,23 @@ export const projects = [
     tags: ["C++", "Qt", "Dlib", "QMake"],
     source:
       "https://github.com/fullhaider1997/Gaze_Controlled_Keyboard-/tree/master",
+    id: 3,
+  },
+  {
+    title: "Basic pokemon web application",
+    description:
+      "User can scroll back and forward to learn about different pokemons.",
+    image: "/images/pokemon.png",
+    tags: ["React", "TypeScript"],
+    source: "https://github.com/fullhaider1997/Pokeman-assessment",
+    id: 4,
+  },
+  {
+    title: "Smart Mirror IOT ",
+    description: "Smart Mirror to teach kids about technology",
+    image: "/images/smartmirror.png",
+    tags: ["Java", "Android", "Firebase", "Python"],
+    source: "https://github.com/Trung28899/SmartMirrorApp",
     id: 2,
   },
   {
@@ -35,7 +54,7 @@ export const projects = [
     image: "/images/cart.png",
     tags: ["React", "TypeScript"],
     source: "https://github.com/fullhaider1997/Cart",
-    id: 3,
+    id: 5,
   },
 ];
 
